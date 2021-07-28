@@ -1,0 +1,18 @@
+.requestButton {
+    color: white;
+    font-weight: 500;
+    box-sizing: border-box;
+    padding-bottom: 2px;
+    width: 160px;
+    height: 43px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    background: rgb(49, 211, 92);
+    background: linear-gradient(
+        90deg,
+        rgba(49, 211, 92, 1) 0%,
+        rgba(43, 183, 218, 1) 100%
+    );
+}

@@ -1,0 +1,27 @@
+.Navbar {
+    width: 100%;
+    background-color: white;
+    height: 73px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo {
+    width: 139px;
+    height: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    padding: 15px;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    color: hsl(233, 8%, 62%);
+}

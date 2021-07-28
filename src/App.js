@@ -1,9 +1,10 @@
 import "./App.css";
+import NavigationBar from "./Components/NavigationBar/NavigationBar";
 
 const App = () => {
     return (
-        <div>
-            <p>Hello</p>
+        <div className="App">
+            <NavigationBar />
         </div>
     );
 };
