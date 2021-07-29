@@ -1,0 +1,22 @@
+.perk {
+    width: 250px;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.perk-p {
+    font-size: 16px;
+    letter-spacing: -0.4px;
+}
+
+.perk-image {
+    width: 72px;
+    height: 72px;
+}
+
+.perk-h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}

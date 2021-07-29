@@ -29,6 +29,7 @@
     font-weight: 300;
     margin: 0;
     color: hsl(233, 26%, 24%);
+    letter-spacing: -0.5px;
 }
 
 .picture {

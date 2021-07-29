@@ -16,4 +16,14 @@
 
 .why-h2 {
     box-sizing: border-box;
+    letter-spacing: -0.5px;
+}
+
+.perks-container {
+    margin: 0 auto;
+    width: 84%;
+    height: 52%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
