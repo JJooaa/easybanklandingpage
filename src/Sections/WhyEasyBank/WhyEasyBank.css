@@ -1,0 +1,19 @@
+.whyEasy-section {
+    height: 680px;
+    width: 100%;
+    background-color: hsl(220, 16%, 96%);
+}
+
+.why-header {
+    display: flex;
+    flex-direction: column;
+    height: 25%;
+    width: 77%;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    padding-top: 80px;
+}
+
+.why-h2 {
+    box-sizing: border-box;
+}
