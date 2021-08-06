@@ -4,7 +4,7 @@
     box-sizing: border-box;
     padding-bottom: 2px;
     width: 160px;
-    height: 43px;
+    min-height: 43px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,5 +14,14 @@
         90deg,
         rgba(49, 211, 92, 1) 0%,
         rgba(43, 183, 218, 1) 100%
+    );
+    cursor: pointer;
+}
+
+.requestButton:hover {
+    background: linear-gradient(
+        90deg,
+        rgba(49, 211, 92, 0.7) 0%,
+        rgba(43, 183, 218, 0.7) 100%
     );
 }

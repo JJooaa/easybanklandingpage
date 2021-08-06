@@ -15,6 +15,20 @@ h3 {
     color: hsl(233, 26%, 24%);
 }
 
+h4 {
+    margin: 0;
+    font-family: "Public Sans", sans-serif;
+    font-weight: 500;
+    color: hsl(233, 26%, 24%);
+    font-size: 19px;
+    letter-spacing: -0.5px;
+    cursor: pointer;
+}
+
+h4:hover {
+    color: rgb(49,211,92);
+}
+
 p {
     margin: 0;
     font-size: 18px;

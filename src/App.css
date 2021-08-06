@@ -1,6 +1,6 @@
 .App {
-    width: 1440px;
+    width: 100%;
     height: auto;
-    background-color: grey;
+    background-color: rgb(255, 255, 255);
     margin: 0 auto;
 }

@@ -32,23 +32,31 @@ const object = {
 const WhyEasyBank = () => {
     return (
         <div className="whyEasy-section">
-            <div className="why-header">
-                <h2 className="why-h2">Why choose Easybank?</h2>
-                <p className="why-p">
-                    We leverage Open Banking to turn your bank account intro
-                    your financial hub. <br />
-                    Control your finances like never before.
-                </p>
-            </div>
-            <div className="perks-container">
-                {Object.keys(object).map((item, i) => (
-                    <Perk
-                        key={i}
-                        text={object[item].para}
-                        header={object[item].header}
-                        image={object[item].image}
-                    />
-                ))}
+            <div
+                style={{
+                    maxWidth: 1200,
+                    marginLeft: "auto",
+                    marginRight: "auto",
+                }}
+            >
+                <div className="why-header">
+                    <h2 className="why-h2">Why choose Easybank?</h2>
+                    <p className="why-p">
+                        We leverage Open Banking to turn your bank account intro
+                        your financial hub. <br />
+                        Control your finances like never before.
+                    </p>
+                </div>
+                <div className="perks-container">
+                    {Object.keys(object).map((item, i) => (
+                        <Perk
+                            key={i}
+                            text={object[item].para}
+                            header={object[item].header}
+                            image={object[item].image}
+                        />
+                    ))}
+                </div>
             </div>
         </div>
     );

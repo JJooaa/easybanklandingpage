@@ -18,7 +18,7 @@ const Intro = () => {
                 <RequestInviteButton />
             </div>
             <div className="picture">
-                <img style={{paddingTop: 20}}src={mockups} alt="4-phones" />
+                <img style={{ paddingTop: 20 }} className="mobiles-image"src={mockups} alt="4-phones" />
             </div>
         </div>
     );
