@@ -56,9 +56,6 @@ a {
     cursor: pointer;
 }
 
-svg:hover {
-    fill: red;
-}
 a:hover {
     color: rgb(49, 211, 92);
 }

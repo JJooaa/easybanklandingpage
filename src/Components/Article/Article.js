@@ -5,7 +5,7 @@ const Article = ({ image, writer, header, text }) => {
     return (
         <div className="article">
             <div className="article-image">
-                <img className="article-img" src={image} />
+                <img className="article-img" src={image} alt="article" />
             </div>
             <div className="article-info">
                 <p className="article-writer">By {writer}</p>

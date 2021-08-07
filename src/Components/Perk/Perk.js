@@ -1,6 +1,5 @@
 import React from "react";
 import "./Perk.css";
-import OnlineIcon from "../../images/icon-online.svg";
 
 const Perk = ({ header, text, image }) => {
     return (

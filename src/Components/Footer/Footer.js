@@ -13,13 +13,33 @@ const Footer = () => {
         <div className="footer">
             <div className="contents">
                 <div className="logo-and-socials">
-                    <img className="logofooter" src={logo2} />
+                    <img className="logofooter" src={logo2} alt="easybank" />
                     <div className="social-icons">
-                        <img className="social-icon" src={fbIcon} />
-                        <img className="social-icon" src={ytIcon} />
-                        <img className="social-icon" src={twitterIcon} />
-                        <img className="social-icon" src={pintIcon} />
-                        <img className="social-icon" src={igIcon} />
+                        <img
+                            className="social-icon"
+                            src={fbIcon}
+                            alt="facebook"
+                        />
+                        <img
+                            className="social-icon"
+                            src={ytIcon}
+                            alt="youtube"
+                        />
+                        <img
+                            className="social-icon"
+                            src={twitterIcon}
+                            alt="twitter"
+                        />
+                        <img
+                            className="social-icon"
+                            src={pintIcon}
+                            alt="pinterest"
+                        />
+                        <img
+                            className="social-icon"
+                            src={igIcon}
+                            alt="instagram"
+                        />
                     </div>
                 </div>
                 <div className="footer-links">
