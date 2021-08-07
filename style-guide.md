@@ -15,11 +15,6 @@ The designs were created to the following widths:
 -   Lime Green: hsl(136, 65%, 51%)
 -   Bright Cyan: hsl(192, 70%, 51%)
 
-///
-background: rgb(49,211,92);
-background: linear-gradient(90deg, rgba(49,211,92,1) 0%, rgba(43,183,218,1) 100%);
-///
-
 ### Neutral
 
 -   Grayish Blue: hsl(233, 8%, 62%)
